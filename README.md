@@ -15,11 +15,11 @@
 <p align="center"> 
     <br />&#10023;
     <a href="#Quick-Start">Quick Start</a>   &#10023;    
-    <a href="https://github.com/sumit-sharma-02/portfolio/issues">Report Bug</a>   &#10023;
+    <a href="https://github.com/Ayush-sharma-02/portfolio/issues">Report Bug</a>   &#10023;
     <a href="#Contact">Author</a>&#10023;
   </p>
   
-  <h3 align="center"><a href="https://portfolio-sumit-sharma-02.vercel.app/"><strong>« Try the demo here »</strong></a></h3>
+  <h3 align="center"><a href="https://portfolio-Ayush-sharma-02.vercel.app/"><strong>« Try the demo here »</strong></a></h3>
   
   ![portfolio-mockup](https://user-images.githubusercontent.com/52236473/216830515-16d7ef05-09fd-49b3-8a38-e7cc06f26d45.png)
   
@@ -48,7 +48,7 @@
 ## Quick Start
 
 ```shell
-$ git clone https://github.com/sumit-sharma-02/portfolio.git
+$ git clone https://github.com/Ayush-sharma-02/portfolio.git
 $ cd portfolio
 $ npm install --force
 ```
@@ -72,8 +72,8 @@ npm start
 ## Contact
 If you want to contact me, you can reach me through below handles.
 
-[![linkedin](https://img.shields.io/badge/Sumit_Sharma-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumitsharma002/)
-[![Github](https://img.shields.io/badge/Sumit_Sharma-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/sumit-sharma-02/)
+[![linkedin](https://img.shields.io/badge/Ayush_Sharma-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Ayushsharma002/)
+[![Github](https://img.shields.io/badge/Ayush_Sharma-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/Ayush-sharma-02/)
 
 ## Show your support
 

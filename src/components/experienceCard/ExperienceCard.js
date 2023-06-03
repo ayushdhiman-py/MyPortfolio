@@ -6,19 +6,12 @@ function ExperienceCard(props) {
   const experience = props.experience;
   const theme = props.theme;
   return (
-    <Fade bottom duration={2000} distance="20px">
+    <Fade bottom duration={100} distance="10px" >
       <div className="experience-card-col experience-card-gap">
         <div
           className="experience-card experience-card-1"
-          style={{ backgroundColor: "#0078bd" }}
         >
-          <div className="experience-company-logo">
-            <img
-              src={require(`../../assets/images/${experience.logo_path}`)}
-              className="featured-image"
-              alt={experience.alt_name}
-            />
-          </div>
+          
           <article
             className="experience-card-body"
             style={{

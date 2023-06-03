@@ -8,7 +8,7 @@ function DegreeCard(props) {
   return (
     <div className="degree-card">
       {degree.logo_path && (
-        <Flip left duration={2000}>
+        <Flip left duration={100}>
           <div className="card-img">
             <img
               style={{

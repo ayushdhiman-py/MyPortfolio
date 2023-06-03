@@ -4,6 +4,11 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
+.logo-name {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  padding: 0 10px;
+}
 
 .greet-main {
   max-width: 1370px;

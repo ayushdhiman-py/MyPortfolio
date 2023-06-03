@@ -23,22 +23,22 @@ function SkillSection(props) {
         if (index % 2 === 0) {
           return (
             <div key={"skills-" + index} className="skills-main-div">
-              <Fade left duration={2000}>
+              <Fade left duration={500}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
 
               <div className="skills-text-div">
-                <Fade right duration={1000}>
+                <Fade right duration={500}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade right duration={1500}>
+                <Fade right duration={500}>
                   <SoftwareSkill theme={theme} logos={skill.softwareSkills} />
                 </Fade>
-                <Fade right duration={2000}>
+                <Fade right duration={500}>
                   <div style={{ textAlign: "center" }}>
                     {skill.skills.map((skillSentence, index) => {
                       return (
@@ -60,15 +60,15 @@ function SkillSection(props) {
           return (
             <div key={"skills-" + index} className="skills-main-div">
               <div className="skills-text-div">
-                <Fade left duration={1000}>
-                  <h1 className="skills-heading" style={{ color: theme.text }}>
+                <Fade left duration={500}>
+                  <h1 className="skills-heading" style={{ color: theme.text}}>
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade left duration={1500}>
+                <Fade left duration={500}>
                   <SoftwareSkill theme={theme} logos={skill.softwareSkills} />
                 </Fade>
-                <Fade left duration={2000}>
+                <Fade left duration={500}>
                   <div style={{ textAlign: "center" }}>
                     {skill.skills.map((skillSentence, index) => {
                       return (
@@ -84,7 +84,7 @@ function SkillSection(props) {
                   </div>
                 </Fade>
               </div>
-              <Fade right duration={2000}>
+              <Fade right duration={500}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>

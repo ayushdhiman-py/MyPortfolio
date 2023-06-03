@@ -13,7 +13,7 @@ function Education(props) {
     <div className="education-main">
       <Header theme={props.theme} setTheme={props.setTheme} />
       <div className="basic-education">
-        <Fade bottom duration={2000} distance="40px">
+        <Fade bottom duration={100} distance="10px">
           <div className="heading-div">
             <div className="heading-img-div">
               <EducationImg theme={theme} />
@@ -23,20 +23,20 @@ function Education(props) {
                 Education
               </h1>
               <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                Basic Qualification and Certifications
+                Basic Qualification and Accomplishments
               </h3>
               <p
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 I actively participate in tech-related activities. Below are
-                some of my major certifications.
+                some of my Coding Profile.
               </p>
             </div>
           </div>
         </Fade>
         <Educations theme={props.theme} />
-        <Certifications theme={props.theme} />
+        {/* <Certifications theme={props.theme} /> */}
       </div>
       <Footer theme={props.theme} />
     </div>

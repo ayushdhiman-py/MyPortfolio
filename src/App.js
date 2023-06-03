@@ -10,7 +10,7 @@ import "./App.css";
 import "react-tooltip/dist/react-tooltip.css";
 
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const useCursor = settings.useCustomCursor;
 
   return (

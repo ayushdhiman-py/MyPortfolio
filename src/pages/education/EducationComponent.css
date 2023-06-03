@@ -1,5 +1,8 @@
 .education-main {
   width: 100%;
+  width: 146.5% !important;
+  padding: 0% !important;
+  margin-left: -19rem;
 }
 
 .basic-education {

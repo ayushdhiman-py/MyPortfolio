@@ -64,13 +64,7 @@ function Header(props) {
 
   return (
     <Fade top duration={1000} distance="20px">
-      <div
-        className={`${
-          props.theme.name === "light"
-            ? "header-container-light"
-            : "header-container-dark"
-        }`}
-      >
+      <div className={"header-container-light"}>
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
@@ -138,9 +132,9 @@ function Header(props) {
                 Contact
               </NavLink>
             </li>
-            <button {...styles} onClick={changeTheme}>
+            {/* <button {...styles} onClick={changeTheme}>
               {icon}
-            </button>
+            </button> */}
           </ul>
         </header>
       </div>

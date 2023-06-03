@@ -6,8 +6,8 @@ function CertificationCard(props) {
   const certificate = props.certificate;
   const theme = props.theme;
   return (
-    <Fade bottom duration={2000} distance="20px">
-      <div className="cert-card" style={{ backgroundColor: theme.themeColor }}>
+    <Fade bottom duration={500} distance="10">
+      <div className="cert-card" style={{ backgroundColor: theme.themeColor , width:500}}>
         <div className="content">
           <a
             href={certificate.certificate_link}

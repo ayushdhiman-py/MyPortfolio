@@ -1,10 +1,10 @@
 .experience-main {
-  width: 100%;
+  width: 149% !important;
+  padding: 0% !important;
+  margin-left: -19.6rem;
 }
 
 .basic-experience {
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .experience-heading-div {

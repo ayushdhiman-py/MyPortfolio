@@ -8,7 +8,7 @@ export default function ExperienceImg(props) {
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
       width="1094"
-      height="760"
+      height="400"
       viewBox="0 0 1094 760"
     >
       <title></title>

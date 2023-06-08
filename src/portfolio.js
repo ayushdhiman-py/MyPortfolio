@@ -508,10 +508,10 @@ const projects = {
     {
       id: "project-4",
       name: "Portfolio",
-      url: "https://chatties.onrender.com",
+      url: "https://ayush-dhiman-portfolio.onrender.com/#/home",
       repoUrl: "https://github.com/ayushdhiman-py/Chatties/tree/main",
       description:
-        "A Real Time Chat App made using React which allows to chat in real time.",
+        "You are here only 😄",
       languages: [
         {
           name: "HTML",
